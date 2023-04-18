@@ -62,10 +62,6 @@ section:nth-child(2n+1) {
     top: 20px;
 }
 
-section h1 {
-    margin-top: 30px;
-}
-
 #intro .contents,
 #map .contents,
 #choice .contents {

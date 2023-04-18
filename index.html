@@ -15,25 +15,38 @@
 </head>
 
 <body>
-    <header id="header">
-        <nav>
-            <ul id="main-nav">
-                <button type="button" style="background-color: transparent; border: 0; color: black;"
-                    data-bs-target="#carouselExampleDark" data-bs-slide-to="0" aria-label="Slide 1">
-                    <li>회사 소개</li>
-                </button>
-                <button type="button" style="background-color: transparent; border: 0; color: black;"
-                    data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2">
-                    <li>오시는 길</li>
-                </button>
-                <button type="button" style="background-color: transparent; border: 0; color: black;"
-                    data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3">
-                <li>하는일</li>
-            </button>
-            </ul>
-        </nav>
-    </header>
-    <section id="carouselExampleDark" class="carousel carousel-dark slide" style="height: 92.5vh;">
+  <nav class="navbar navbar-expand-lg border shadow-sm rounded-4" style="margin: 1rem; background-color: #d0bfff;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">회사이름</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+          aria-current="true" aria-label="Slide 1">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">회사 소개</a>
+          </li></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+          aria-label="Slide 2">
+          <li class="nav-item">
+            <a class="nav-link" href="#">오시는 길</a>
+          </li></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+          aria-label="Slide 3">
+          <li class="nav-item">
+            <a class="nav-link" href="#">하는 일</a>
+          </li></button>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <section id="carouselExampleDark" class="carousel carousel-dark slide" style="height: 89vh;">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <h1>안녕</h1>

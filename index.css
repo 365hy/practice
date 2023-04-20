@@ -5,16 +5,17 @@
     font-style: normal;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
 }
 
 .navbar-nav button {
+    border: 0;
+    background-color: transparent;
+    border-radius: 0.5rem;
+}
+
+.footer-container button {
     border: 0;
     background-color: transparent;
     border-radius: 0.5rem;
@@ -37,77 +38,6 @@ body {
 
 .footer-container {
     width: 100%;
-    background-color: #bac8ff;
-    padding: 1rem;
-}
-
-section {
-    position: relative;
-    width: 100%;
-    padding: 15px 5% 10px 5%;
-}
-
-#intro,
-#map,
-#choice {
-    box-sizing: border-box;
-    height: 430px;
-}
-
-section:nth-child(2n+1) {
-    background-color: #eee;
-}
-
-.page-title {
-    position: absolute;
-    top: 20px;
-}
-
-#intro .contents,
-#map .contents,
-#choice .contents {
-    position: absolute;
-    top: 130px;
-    width: 80%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.text {
-    width: 40%;
-}
-
-.photo img {
-    max-width: 320px;
-    height: auto;
-}
-
-#intro .contents,
-#map .contents {
-    flex-direction: row;
-}
-
-#choice .contents {
-    flex-direction: row-reverse;
-}
-
-#choice .photo {
-    margin-left: 30px;
-}
-
-#choice .text ol {
-    text-align: justify;
-    margin-top: 20px;
-}
-
-#choice .text li {
-    list-style: decimal;
-    margin-left: 16px;
-}
-
-#choice img {
-    border: 1px solid #fff;
-    border-radius: 50%;
+    background-color: #e9ecef;
+    padding: 2rem;
 }

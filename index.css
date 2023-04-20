@@ -9,10 +9,16 @@ a {
     text-decoration: none;
 }
 
-.navbar-nav button {
+.navbar button {
     border: 0;
     background-color: transparent;
     border-radius: 0.5rem;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
 }
 
 .footer-container button {
@@ -21,14 +27,13 @@ a {
     border-radius: 0.5rem;
 }
 
-.navbar-nav button:hover {
-    background-color: rgb(184, 184, 184);
+.navbar button:hover {
+    border: 1px solid gray;
 }
 
-li {
-    font-size: 1em;
-    line-height: 2;
-    list-style: none;
+.article {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 body {

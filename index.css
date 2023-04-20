@@ -36,6 +36,10 @@ body {
     font-family: 'Pretendard-Regular';
 }
 
+section {
+    padding: 1rem;
+}
+
 .footer-container {
     width: 100%;
     background-color: #e9ecef;

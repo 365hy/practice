@@ -1,3 +1,4 @@
+/* 프리텐다드 폰트 */
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -49,4 +50,29 @@ section {
     width: 100%;
     background-color: #e9ecef;
     padding: 2rem;
+}
+
+.mobile-article {
+    display: none;
+    padding: 1rem;
+}
+
+/* 반응형 코드 */
+@media screen and (max-width: 700px) {
+    .banner {
+        display: none;
+    }
+
+    .carousel {
+        display: none;
+    }
+    .mobile-article {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .creator {
+        display: none;
+    }
 }

@@ -10,11 +10,20 @@ a {
     text-decoration: none;
 }
 
-.navbar button {
+.footer-content a {
     border: 0;
     background-color: transparent;
     border-radius: 0.5rem;
+    padding: 0.5rem;
 }
+
+header a {
+    border: 0;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
 
 .banner {
     width: 100%;
@@ -22,13 +31,11 @@ a {
     padding: 0.5rem;
 }
 
-.footer-container button {
-    border: 0;
-    background-color: transparent;
-    border-radius: 0.5rem;
+.footer-content a:hover {
+    border: 1px solid gray;
 }
 
-.navbar button:hover {
+header a:hover {
     border: 1px solid gray;
 }
 
@@ -44,6 +51,10 @@ body {
 
 section {
     padding: 1rem;
+}
+
+.article-container {
+    height: 90vh;
 }
 
 .footer-container {

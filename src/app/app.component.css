@@ -1,54 +1,31 @@
-.footer-content a {
-  border: 0;
-  background-color: transparent;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-}
-
 header a {
   border: 0;
   background-color: transparent;
-  border-radius: 0.5rem;
+}
+
+.footer a {
+  border: 0;
+  background-color: transparent;
   padding: 0.5rem;
 }
 
-
-.banner {
-  width: 100%;
-  text-align: center;
-  padding: 0.5rem;
-}
-
-.footer-content a:hover {
-  border: 1px solid gray;
-}
-
-header a:hover {
-  border: 1px solid gray;
-}
-
-.article {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-body {
-  margin: 0 auto;
-  font-family: 'Pretendard-Regular';
-}
-
-section {
-  padding: 1rem;
+.footer, header a:hover {
+  font-weight: bold;
 }
 
 .article {
   height: 90vh;
+  margin: 1rem;
 }
 
-.footer-container {
+.footer {
   width: 100%;
-  background-color: #e9ecef;
+  background-color: #e9ecf6;
   padding: 2rem;
+}
+
+.nav-link {
+  color: #142B88;
 }
 
 /* 반응형 코드 */
@@ -58,12 +35,6 @@ section {
   }
 
   .carousel {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .creator {
     display: none;
   }
 }

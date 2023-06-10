@@ -8,8 +8,10 @@
 
 html, body {
   font-family: 'Pretendard-Regular';
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+  color: #142B88;
 }

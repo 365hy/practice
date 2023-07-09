@@ -6,8 +6,12 @@ header a {
 .footer a {
   border: 0;
   background-color: transparent;
+}
+
+.footer-link a {
   padding: 0.5rem;
 }
+
 
 .footer, header a:hover {
   font-weight: bold;
@@ -15,7 +19,7 @@ header a {
 
 .article {
   height: 90vh;
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 .footer {

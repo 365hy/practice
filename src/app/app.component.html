@@ -1,41 +1,40 @@
- <header class="p-3 mb-3 border-bottom">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" style="margin-left: 1.5rem; margin-right: 1.5rem;">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-          <img src="./assets/knp.jpg" width="60" alt="knp icon" />
-        </a>
+<header class="p-3 mb-3 shadow-sm">
+  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+       style="margin-left: 2rem; margin-right: 2rem; padding: 0.5rem;">
+    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+      <img src="./assets/knp.jpg" width="60" alt="knp icon"/>
+    </a>
 
-        <ul class="nav col-10 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        </ul>
+    <ul class="nav col-10 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+    </ul>
 
-        <div class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 nav">
-          <li><a href="/introduce" class="nav-link px-2 link-body-emphasis">회사 소개</a></li>
-          <li><a href="/place" class="nav-link px-2 link-body-emphasis">오시는 길</a></li>
-          <li><a href="/work" class="nav-link px-2 link-body-emphasis">하는 일</a></li>
-          <li><a href="/certification" class="nav-link px-2 link-body-emphasis">인증서 및 특허</a></li>
-          <li><a href="/organization-chart" class="nav-link px-2 link-body-emphasis">조직도</a></li>
-        </div>
-      </div>
-  </header>
+    <div class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 nav">
+      <li><a href="/introduce" class="nav-link px-2 link-body-emphasis">회사 소개</a></li>
+      <li><a href="/place" class="nav-link px-2 link-body-emphasis">오시는 길</a></li>
+      <li><a href="/work" class="nav-link px-2 link-body-emphasis">하는 일</a></li>
+      <li><a href="/certification" class="nav-link px-2 link-body-emphasis">인증서 및 특허</a></li>
+      <li><a href="/organization-chart" class="nav-link px-2 link-body-emphasis">조직도</a></li>
+    </div>
+  </div>
+</header>
 <div class="article">
   <router-outlet></router-outlet>
 </div>
 <div class="footer">
   <div class="container text-center">
-    <div class="row justify-content-between border-bottom border-dark-subtle" style="margin-bottom: 1rem;">
+    <div class="row justify-content-between border-dark-subtle">
       <div class="col-1">
         <h3 style="font-weight: bold; color: #142B88;">KNP</h3>
       </div>
       <div class="col-4">
-          <span style="font-size: 0.9rem;">이 홈페이지는 <a href="https://hyeonho64.vercel.app" target="_blank">강현호</a>,
-            <a href="https://github.com/365hy/" target="_blank">이도환</a>에 의해 개발되었습니다.</span>
-      </div>
-    </div>
-    <span class="footer-link">
+            <span class="footer-link">
       <a href="/introduce">회사 소개</a>
       <a href="/place">오시는 길</a>
       <a href="/work">하는 일</a>
       <a href="/certification">인증서 및 특허</a>
       <a href="/organization-chart">조직도</a>
     </span>
+      </div>
+    </div>
   </div>
 </div>

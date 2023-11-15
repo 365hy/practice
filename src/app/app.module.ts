@@ -3,26 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IntroduceComponent } from './introduce/introduce.component';
-import { CertificationComponent } from './certification/certification.component';
-import { WorkComponent } from './work/work.component';
-import { OrganizationChartComponent } from './organization-chart/organization-chart.component';
-import { PlaceComponent } from './place/place.component';
-import { IndexComponent } from './index/index.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    IntroduceComponent,
-    CertificationComponent,
-    WorkComponent,
-    OrganizationChartComponent,
-    PlaceComponent,
-    IndexComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]

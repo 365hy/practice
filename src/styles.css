@@ -1,3 +1,4 @@
+/* font start */
 /* 프리텐다드 */
 @font-face {
   font-family: 'Pretendard-Regular';
@@ -13,6 +14,7 @@
   font-weight: normal;
   font-style: normal;
 }
+/* font end */
 
 html, body {
   font-family: SUIT-Regular;
@@ -22,4 +24,8 @@ html, body {
 a {
   text-decoration: none;
   color: #142B88;
+}
+
+a:hover {
+  font-weight: bold;
 }

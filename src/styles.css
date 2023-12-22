@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 @import url("https://cdn.jsdelivr.net/gh/hyeonho64/hyeonho64/font.css");
 
 html, body {
